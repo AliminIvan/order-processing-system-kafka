@@ -1,6 +1,6 @@
 package com.ivanalimin.payment_service.service;
 
-import com.ivanalimin.payment_service.dto.OrderDTO;
+import com.ivanalimin.dto.OrderDTO;
 import com.ivanalimin.payment_service.model.Order;
 import com.ivanalimin.payment_service.repository.OrderRepository;
 import com.ivanalimin.payment_service.util.OrderMapper;

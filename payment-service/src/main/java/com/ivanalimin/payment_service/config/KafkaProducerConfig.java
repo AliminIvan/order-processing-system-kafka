@@ -1,6 +1,6 @@
 package com.ivanalimin.payment_service.config;
 
-import com.ivanalimin.payment_service.dto.OrderDTO;
+import com.ivanalimin.dto.OrderDTO;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;

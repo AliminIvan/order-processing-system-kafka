@@ -1,6 +1,6 @@
 package com.ivanalimin.orders_service.util;
 
-import com.ivanalimin.orders_service.dto.OrderDTO;
+import com.ivanalimin.dto.OrderDTO;
 import com.ivanalimin.orders_service.model.Order;
 import lombok.experimental.UtilityClass;
 

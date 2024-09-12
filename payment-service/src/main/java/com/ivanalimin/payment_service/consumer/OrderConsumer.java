@@ -1,7 +1,7 @@
 package com.ivanalimin.payment_service.consumer;
 
-import com.ivanalimin.payment_service.dto.OrderDTO;
-import com.ivanalimin.payment_service.model.Order;
+import com.ivanalimin.dto.OrderDTO;
+
 import com.ivanalimin.payment_service.service.PaymentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.annotation.KafkaListener;

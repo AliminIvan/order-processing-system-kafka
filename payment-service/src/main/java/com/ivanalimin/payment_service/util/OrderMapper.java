@@ -1,6 +1,6 @@
 package com.ivanalimin.payment_service.util;
 
-import com.ivanalimin.payment_service.dto.OrderDTO;
+import com.ivanalimin.dto.OrderDTO;
 import com.ivanalimin.payment_service.model.Order;
 import lombok.experimental.UtilityClass;
 

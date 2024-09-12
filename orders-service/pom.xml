@@ -36,6 +36,11 @@
             <optional>true</optional>
         </dependency>
         <dependency>
+            <groupId>com.ivanalimin</groupId>
+            <artifactId>common_dto_library</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>

@@ -1,6 +1,6 @@
 package com.ivanalimin.orders_service.service;
 
-import com.ivanalimin.orders_service.dto.OrderDTO;
+import com.ivanalimin.dto.OrderDTO;
 import com.ivanalimin.orders_service.model.Order;
 import com.ivanalimin.orders_service.repository.OrderRepository;
 import com.ivanalimin.orders_service.util.OrderMapper;

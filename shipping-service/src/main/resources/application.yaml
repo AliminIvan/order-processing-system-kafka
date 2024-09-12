@@ -2,7 +2,7 @@ spring:
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
-      group-id: payment-service
+      group-id: shipping-service
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
@@ -24,6 +24,6 @@ spring:
       ddl-auto: update
     show-sql: true
   application:
-    name: payment-service
+    name: shipping-service
 server:
-  port: 8081
+  port: 8082

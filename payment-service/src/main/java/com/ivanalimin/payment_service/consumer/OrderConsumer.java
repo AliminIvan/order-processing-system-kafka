@@ -1,5 +1,6 @@
 package com.ivanalimin.payment_service.consumer;
 
+import com.ivanalimin.payment_service.dto.OrderDTO;
 import com.ivanalimin.payment_service.model.Order;
 import com.ivanalimin.payment_service.service.PaymentService;
 import lombok.RequiredArgsConstructor;
@@ -13,7 +14,7 @@ public class OrderConsumer {
     private final PaymentService paymentService;
 
     @KafkaListener(topics = "new-orders", groupId = "payment-service")
-    public void listen(Order order) {
-        paymentService.processPayment(order);
+    public void listen(OrderDTO orderDTO) {
+        paymentService.processPayment(orderDTO);
     }
 }
